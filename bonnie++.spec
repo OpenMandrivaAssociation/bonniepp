@@ -1,11 +1,11 @@
 Name: bonnie++
-Version: 1.03a
-Release: %mkrel 3
+Version: 1.03b
+Release: %mkrel 1
 Summary: A program for benchmarking hard drives and filesystems
-License: GPL
+License: GPLv2+
 Group: System/Kernel and hardware
 URL: http://www.coker.com.au/bonnie++/
-Source: http://www.coker.com.au/bonnie++/bonnie++-%{version}.tar.bz2 
+Source: http://www.coker.com.au/bonnie++/bonnie++-%{version}.tgz 
 BuildRoot: %{_tmppath}/%{name}-%{version}-root
 Provides: bonnie
 Obsoletes: bonnie
