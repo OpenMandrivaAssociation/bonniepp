@@ -6,7 +6,6 @@ License: GPLv2+
 Group: System/Kernel and hardware
 URL: http://www.coker.com.au/bonnie++/
 Source: http://www.coker.com.au/bonnie++/bonnie++-%{version}.tgz 
-BuildRoot: %{_tmppath}/%{name}-%{version}-root
 Provides: bonnie
 Obsoletes: bonnie
 
