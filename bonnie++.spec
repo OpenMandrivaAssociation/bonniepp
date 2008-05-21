@@ -1,21 +1,25 @@
 Name: bonnie++
 Version: 1.03c
-Release: %mkrel 1
+Release: %mkrel 2
 Summary: A program for benchmarking hard drives and filesystems
 License: GPLv2+
 Group: System/Kernel and hardware
 URL: http://www.coker.com.au/bonnie++/
 Source: http://www.coker.com.au/bonnie++/bonnie++-%{version}.tgz 
-BuildRoot: %{_tmppath}/%{name}-%{version}-root
+Patch0: bonnie++-1.03a-gcc43.patch
 Provides: bonnie
 Obsoletes: bonnie
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Bonnie++ is a benchmark suite that is aimed at performing a number of simple
 tests of hard drive and file system performance.
 
 %prep
+
 %setup -q
+%patch0 -p1
+
 autoconf
 
 %build
