@@ -1,5 +1,5 @@
 Name: bonnie++
-Version: 1.03e
+Version: 1.96
 Release: %mkrel 1
 Summary: A program for benchmarking hard drives and filesystems
 License: GPLv2+
@@ -36,9 +36,12 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %doc changelog.txt readme.html credits.txt
 /sbin/bonnie++
+/sbin/getc_putc
+/sbin/getc_putc_helper
 /sbin/zcav
 /bin/bon_csv2html
 /bin/bon_csv2txt
+/bin/generate_randfile
 %{_mandir}/man1/*
 %{_mandir}/man8/*
 
