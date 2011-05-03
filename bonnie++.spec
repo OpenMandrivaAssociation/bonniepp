@@ -1,6 +1,6 @@
 Name: bonnie++
 Version: 1.96
-Release: %mkrel 3
+Release: %mkrel 4
 Summary: A program for benchmarking hard drives and filesystems
 License: GPLv2+
 Group: System/Kernel and hardware
