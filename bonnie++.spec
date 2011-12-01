@@ -24,7 +24,7 @@ tests of hard drive and file system performance.
 perl -pi -e "s@/usr/share/doc/bonnie\+\+/@%_docdir/%name-%version/@" bonnie++.8
 
 %install
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 [ -e debian/changelog ]&& (rm -f changelog.txt;mv debian/changelog changelog.txt)
 perl -pi -e "s@usr/share/man@%{buildroot}%_mandir@g" Makefile
 %makeinstall eprefix=%{buildroot} DESTDIR=%{buildroot}
