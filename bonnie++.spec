@@ -3,7 +3,7 @@
 Summary:	A program for benchmarking hard drives and filesystems
 Name:		bonnie++
 Version:	1.96
-Release:	4
+Release:	5
 License:	GPLv2+
 Group:		System/Kernel and hardware
 Url:		http://www.coker.com.au/bonnie++/
