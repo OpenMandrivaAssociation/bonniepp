@@ -6,7 +6,7 @@ Version:	1.96
 Release:	5
 License:	GPLv2+
 Group:		System/Kernel and hardware
-Url:		http://www.coker.com.au/bonnie++/
+Url:		https://www.coker.com.au/bonnie++/
 Source0:	http://www.coker.com.au/bonnie++/%{name}-%{version}.tgz 
 Provides:	bonnie
 
