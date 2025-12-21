@@ -10,6 +10,11 @@ Url:		https://www.coker.com.au/bonnie++/
 Source0:	http://www.coker.com.au/bonnie++/%{name}-%{version}.tgz 
 Provides:	bonnie
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 Bonnie++ is a benchmark suite that is aimed at performing a number of simple
 tests of hard drive and file system performance.
